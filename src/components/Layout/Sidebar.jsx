@@ -26,7 +26,7 @@ const Sidebar = () => {
       }}
     >
       <Typography variant="h5" sx={{ textAlign: "center", py: 2 }}>
-        Closet SOFT
+        FacturaYa
       </Typography>
       <List>
         {menuItems.map((item) => (

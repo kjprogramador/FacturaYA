@@ -1,7 +1,7 @@
 const Home = () => {
   return (
     <di>
-      <h1>Closet SOFT</h1>
+      <h1>Factura YA</h1>
     </di>
   );
 };
