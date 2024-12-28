@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import Home from "./pages/Home";
-import Products from "./pages/Products";
+import Inventory from "./pages/Inventory";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/inventory" element={<Products />} />
+          <Route path="/inventory" element={<Inventory />} />
         </Routes>
       </Layout>
     </Router>
